@@ -8,7 +8,7 @@ Vim syntax highlighting for the [ACT hardware description language](http://avlsi
 
 ```bash
 mkdir -p ~/.vim/pack/plugins/start
-git clone https://github.com/lfzuniga/act-syntax ~/.vim/pack/plugins/start/
+git clone https://github.com/lfzuniga/vim-act ~/.vim/pack/plugins/start/
 ```
 
 ## Credits
