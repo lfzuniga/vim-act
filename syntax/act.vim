@@ -2,8 +2,6 @@
 " Language:     ACT
 " Maintainer:   Luis Zuniga
 " Filetype:     *.act
-" This file is based on vim ACT syntax file initially made by Carlos Tadeo
-" Ortega Moreno. 
 
 " Prevent reloading
 if exists("b:current_syntax")
