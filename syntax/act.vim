@@ -14,10 +14,10 @@ endif
 
 " Process/channel/namespace declarations
 syn keyword actStructure    defproc defchan namespace template defcell
-syn keyword actStatement    export import open chp prs sizing dataflow hse self
+syn keyword actStatement    export import open chp prs sizing dataflow hse self GND Vdd
 
 " Types native to ACT
-syn keyword actType         chan pint bool int
+syn keyword actType         chan pint pbool bool int 
 
 " Labels / special keywords
 syn keyword actLabel        case default
@@ -55,9 +55,13 @@ syn region actPreCondit     start="^\s*#\s*\(if\|ifdef\|ifndef\|elif\)\>" skip="
 syn match  actPreCondit     display "^\s*#\s*\(else\|endif\)\>"
 
 " ── Highlighting links ────────────────────────────────────────────────────────
-hi def link actStructure    Structure
+hi def link actStructure    Statement
 hi def link actStatement    Statement
-hi def link actType         Type
+hi def link actType         Statement
+" hi def link actStructure    Structure
+" hi def link actStatement    Statement
+" hi def link actType         Type
+" ^ change so that it resembles VS Code highlighting
 hi def link actLabel        Label
 hi def link actOperator     Operator
 hi def link actTodo         Todo
