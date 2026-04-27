@@ -11,8 +11,8 @@ endif
 " ── ACT-specific keywords ─────────────────────────────────────────────────────
 
 " Process/channel/namespace declarations
-syn keyword actStructure    defproc defchan namespace template defcell
-syn keyword actStatement    export import open chp prs sizing dataflow hse self GND Vdd
+syn keyword actStructure    defproc defchan namespace template defcell function
+syn keyword actStatement    export import open chp prs sizing dataflow hse self GND Vdd methods spec
 
 " Types native to ACT
 syn keyword actType         chan pint pbool bool int 
