@@ -28,6 +28,9 @@ syn keyword actOperator     sizeof
 " Todo markers in comments
 syn keyword actTodo         contained TODO FIXME XXX
 
+" Boolean constants
+syn keyword actBoolean      true false
+
 " ── Comments ──────────────────────────────────────────────────────────────────
 syn cluster actCommentGroup contains=actTodo
 syn region  actCommentL     start="//"  skip="\\$" end="$"    keepend contains=@actCommentGroup
@@ -72,6 +75,7 @@ hi def link actString       String
 hi def link actCharacter    Character
 hi def link actNumber       Number
 hi def link actFloat        Float
+hi def link actBoolean      Boolean
 hi def link actInclude      Include
 hi def link actIncluded     String
 hi def link actDefine       Macro
