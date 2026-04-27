@@ -13,4 +13,4 @@ git clone https://github.com/lfzuniga/vim-act ~/.vim/pack/plugins/start/
 
 ## Credits
 
-Based on an initial implementation by Carlos Tadeo Ortega Moreno.
+Based on an initial implementation by Carlos Tadeo Ortega Otero.
