@@ -22,6 +22,7 @@ syn keyword actLabel        case default
 
 " Operators
 syn keyword actOperator     sizeof
+syn match   actOperator     display "\(->\|=>\|#>\)"
 
 " Todo markers in comments
 syn keyword actTodo         contained TODO FIXME XXX
