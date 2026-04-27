@@ -1,4 +1,4 @@
-# ACT Syntax
+# Vim ACT 
 
 Vim syntax highlighting for the [ACT hardware description language](http://avlsi.csl.yale.edu/act/doku.php).
 
